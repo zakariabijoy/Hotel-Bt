@@ -241,6 +241,34 @@ p {
   border-radius: 50%;
 }
 
+/* contact form */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+  border-radius: 5px;
+}
+.form-group textarea {
+  height: 200px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
 /* Main footer */
 #main-footer {
   text-align: center;
